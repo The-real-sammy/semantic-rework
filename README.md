@@ -27,7 +27,13 @@ To use this website you can access it via the deployed web link:
 [https://the-real-sammy.github.io/semantic-rework/
 ](https://the-real-sammy.github.io/semantic-rework/)
 
-For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS. Alternatively review the files within the repo:
+For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS. 
+
+Alternatively review the files within the repo:
+
+[https://github.com/The-real-sammy/semantic-rework](https://github.com/The-real-sammy/semantic-rework)
+
+Screenshot: 
 
 ## Credits
 
@@ -49,9 +55,3 @@ Tutorials:
 ## License
 
 Please refer to the LICENSE in the repo.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.# semantic-rework
-Html semantic element rework
-![Screenshot 2023-12-04 at 18 39 04](https://github.com/The-real-sammy/semantic-rework/assets/152024562/9fb93e43-a497-4be5-bcd4-8380abfc1200)
