@@ -87,20 +87,13 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* class name changed to <benefit> for all three of the following: .benefit-lead; .benefit-brand; .benefit cost*/
+/* The above change is because each of these classes have the same styling and by changing the class so it is the 
+same for each this results in the the redundant code  being removed to declutter the css file */
 
 .benefit-lead h3 {
     margin-bottom: 10px;
