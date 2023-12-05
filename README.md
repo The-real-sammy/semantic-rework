@@ -22,9 +22,12 @@ N/A
 
 ## Usage
 
-To use this website you can access it via the deployed web link :
+To use this website you can access it via the deployed web link: 
 
-For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS.
+[https://the-real-sammy.github.io/semantic-rework/
+](https://the-real-sammy.github.io/semantic-rework/)
+
+For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS. Alternatively review the files within the repo:
 
 ## Credits
 
