@@ -55,32 +55,36 @@
     <!-- The <div> tags within the <main> parent tag have been changed to sections as they from different subject content within the same section of the webpage. -->
     <!-- <alt> tags added to images to provide a short description of the image, this would display if the image fails to load but also a screen reader would be able to read and describe what the image content is; this provides acessibility-->
 
-    <div class="benefits">
-        <div class="benefit">
+    <aside class="benefits">
+        <section class="benefit">
             <h3>Lead Generation</h3>
-            <img src="./assets/images/lead-generation.png" alt="image of midmap" />
+            <img src="./assets/images/lead-generation.png" alt="Illustration of icon depicting ideas generating income" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <!-- 'class' changed to benefit so a single class is used for all the elements with the same style, which is the purpose of a class. -->
-        <!-- redundant css code removed -->
-        <div class="benefit"> 
+        </section>
+        <section class="benefit"> 
             <h3>Brand Awareness</h3>
-            <img src="./assets/images/brand-awareness.png" />
+            <img src="./assets/images/brand-awareness.png" alt="Image of icon depicting a lightbulb generating ideas"/>
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div class="benefit">
+        </section>
+        <section class="benefit">
             <h3>Cost Management</h3>
-            <img src="./assets/images/cost-management.png"></img>
+            <img src="./assets/images/cost-management.png" alt="Image of icon depicting the increase in monetary value du to search ranking increasing">
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-
+        </section>
     </div>
+        <!-- 'class' changed to benefit so a single class is used for all the elements with the same style, which is the purpose of a class. -->
+        <!-- redundant css code removed -->
+        <!-- Parent <div> tag renamed to the correct semantic element <aside> -->
+        <!-- 'alt' value added describing images -->
+        <!-- Image closing tag removed as it is not required; the <img> tag is a void element -->
+        <!-- each of the <div> within the parent <aside> have been altered to <section> tags as they form different sections of texts within the same theme -->
+
     <div class="footer">
         <h2>Made with ❤️️ by Horiseon</h2>
         <p>
