@@ -25,25 +25,26 @@
             </ul>
         </nav>
     </header>
+
     <!-- The changes to the above section has been made to revise a non-semantic tag <div> to a semantic tag identifying the section of the website as a <header> and below this the <nav> section. This is to allow screen readers to identify the section of the website-->
 
     <div class="hero"></div>
     <main class="content">
-        <section class="search-engine-optimization">
+        <section class="seo-marketing">
             <img src="./assets/images/search-engine-optimization.jpg" alt="Image of mindmap about SEO" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </section>
-        <section id="online-reputation-management" class="online-reputation-management">
+        <section id="online-reputation-management" class="seo-marketing">
             <img src="./assets/images/online-reputation-management.jpg" alt="Image of computer demonstrating the growth of reputation in a graph format" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </section>
-        <section id="social-media-marketing" class="social-media-marketing">
+        <section id="social-media-marketing" class="seo-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="Image of several social media icons highlighting forms of social media marketing" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
@@ -51,9 +52,13 @@
             </p>
         </section>
     </main>
+
     <!-- In the above section - the div tag has been changed to <main> as this forms the main body of the page and is a more useful semantic element. -->
     <!-- The <div> tags within the <main> parent tag have been changed to sections as they from different subject content within the same section of the webpage. -->
-    <!-- <alt> tags added to images to provide a short description of the image, this would display if the image fails to load but also a screen reader would be able to read and describe what the image content is; this provides acessibility-->
+    <!-- <alt> tags added to images to provide a short description of the image, this would display if the image fails to load but also a screen reader would be able 
+        to read and describe what the image content is; this provides acessibility-->
+    <!-- The class in the section tag for each of the section tags withing the main parent tags have been altered to the same class. This is to reduce repetition and 
+    duplicated files - CSS file updated accordingly. -->
 
     <aside class="benefits">
         <section class="benefit">
@@ -85,12 +90,14 @@
         <!-- Image closing tag removed as it is not required; the <img> tag is a void element -->
         <!-- each of the <div> within the parent <aside> have been altered to <section> tags as they form different sections of texts within the same theme -->
 
-    <div class="footer">
-        <h2>Made with ❤️️ by Horiseon</h2>
+    <footer class="footer">
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
+    <!-- Parent tags changed to semantic footer tag to improve accessibility. -->
+    <!-- The h2 has been changed to h4 this is to ensure that the headings fal in sequential order. -->
 </body>
 
 </html>
