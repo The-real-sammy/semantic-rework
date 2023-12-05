@@ -22,18 +22,30 @@ N/A
 
 ## Usage
 
-To use this website you can access it via the deployed web link: 
+### To use this website you can access it via the deployed web link: 
 
 [https://the-real-sammy.github.io/semantic-rework/
 ](https://the-real-sammy.github.io/semantic-rework/)
 
 For suggestions on what to review first, open the Chrome DevTools by pressing Command+Option+I (macOS) or Control+Shift+I (Windows). A console panel should open either below or to the side of the webpage in the browser. There you will see a breakdown of the html code with notations on how each section was improved for accessibility and the changes made in the CSS. 
 
-Alternatively review the files within the repo:
+#### Alternatively review the files within the repo:
 
 [https://github.com/The-real-sammy/semantic-rework](https://github.com/The-real-sammy/semantic-rework)
 
-Screenshot: 
+#### Screenshots of deployed page:
+
+##### Image 01
+<img width="1122" alt="Screenshot 2023-12-04 at 23 16 49" src="https://github.com/The-real-sammy/semantic-rework/assets/152024562/409d2bcf-3248-4fe7-aa0c-5187502e5a0a">
+
+##### Image 02
+<img width="1233" alt="Screenshot 2023-12-05 at 22 54 15" src="https://github.com/The-real-sammy/semantic-rework/assets/152024562/97e35a1b-2fcd-4491-b041-987eb5f383c7">
+
+##### Image 03
+![Screenshot 2023-12-04 at 18 39 04](https://github.com/The-real-sammy/semantic-rework/assets/152024562/c68d5fbe-bd98-4a7e-8ce6-e2292d6de02c)
+
+##### Image 04
+<img width="1237" alt="Screenshot 2023-12-05 at 22 54 36" src="https://github.com/The-real-sammy/semantic-rework/assets/152024562/e0ba6776-7e49-44d1-a38e-faf2f1e02332">
 
 ## Credits
 
